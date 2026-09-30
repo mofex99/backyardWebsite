@@ -1,0 +1,7 @@
+<svg width="1000" height="760" viewBox="0 0 1000 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Crowd placeholder 002">
+  <rect width="1000" height="760" fill="#101012"/>
+  <path d="M62 630L312 360L486 510L680 290L928 548" stroke="#D08A5B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M92 92H908" stroke="#F6F1EA" stroke-opacity="0.12" stroke-width="2"/>
+  <text x="54" y="84" fill="#F6F1EA" font-family="Inter, Arial, sans-serif" font-size="24" letter-spacing="5">CANDID / COMMUNITY / PLACEHOLDER</text>
+  <text x="54" y="690" fill="#A8A29D" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="4">REPLACE WITH ATTENDEE OR BTS PHOTO</text>
+</svg>

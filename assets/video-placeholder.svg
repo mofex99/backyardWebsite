@@ -1,0 +1,8 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Video placeholder">
+  <rect width="1280" height="720" fill="#0A0A0C"/>
+  <rect x="40" y="40" width="1200" height="640" stroke="#F6F1EA" stroke-opacity="0.1" stroke-width="1.5"/>
+  <circle cx="640" cy="360" r="88" fill="#D08A5B" fill-opacity="0.12"/>
+  <path d="M618 318L710 360L618 402V318Z" fill="#F6F1EA"/>
+  <text x="68" y="102" fill="#F6F1EA" font-family="Inter, Arial, sans-serif" font-size="28" letter-spacing="5">VIDEO PLACEHOLDER</text>
+  <text x="68" y="622" fill="#A8A29D" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="4">DROP IN MP4 / YOUTUBE / VIMEO / VERTICAL RECAP</text>
+</svg>

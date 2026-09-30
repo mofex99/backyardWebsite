@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Backyard Ventures</title>
+  <meta name="description" content="Contact Backyard Ventures to start a project, event, experience, operation, or travel advisory inquiry." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contact-main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="archive.html" aria-label="Backyard.Ent archive">
+        <img class="brand-mark" src="assets/backyard-ventures-wordmark.svg" alt="Backyard.Ent logo" />
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="archive.html">Archives</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contact-main">
+    <section class="hero section-tight" data-reveal>
+      <div class="container contact-layout">
+        <div class="contact-brief">
+          <div class="hero-meta">
+            <span>Contact</span>
+            <span>Start a project</span>
+          </div>
+          <h1 class="display-title">
+            START<br />
+            HERE.
+          </h1>
+          <p class="hero-note">
+            Event. Experience. Operation. Travel.
+          </p>
+        </div>
+
+        <div>
+          <form class="contact-form" action="https://formspree.io/f/mbglbzgw" method="post">
+            <input type="hidden" name="_subject" value="New Backyard Ent. inquiry" />
+            <div class="field-row">
+              <input class="field" type="text" name="name" placeholder="Name" aria-label="Name" required />
+              <input class="field" type="email" name="email" placeholder="Email" aria-label="Email" required />
+            </div>
+
+            <div class="field-row">
+              <input class="field" type="text" name="organization" placeholder="Organization" aria-label="Organization" />
+              <select name="project-type" aria-label="Project type" required>
+                <option value="" selected disabled>Project type</option>
+                <option>Event consultation</option>
+                <option>Event hosting</option>
+                <option>Event management</option>
+                <option>Security consulting</option>
+                <option>Travel advising</option>
+                <option>Excursion / experience</option>
+              </select>
+            </div>
+
+            <div class="field-row">
+              <input class="field" type="text" name="date" placeholder="Date" aria-label="Date" />
+              <select name="budget" aria-label="Budget range">
+                <option>Budget range</option>
+                <option>Under $1,000</option>
+                <option>$1,000 – $5,000</option>
+                <option>$5,000 – $10,000</option>
+                <option>$10,000+</option>
+                <option>To be discussed</option>
+              </select>
+            </div>
+
+            <textarea name="description" placeholder="Project description" aria-label="Project description" required></textarea>
+            <button class="text-link" type="submit">Send inquiry</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-rule" />
+
+    <section class="section" data-reveal>
+      <div class="container contact-layout">
+        <div>
+          <div class="section-heading">
+            <span class="section-label">Direct contact</span>
+            <h2>Contact.</h2>
+          </div>
+          <div class="contact-side">
+            <p><strong>Email:</strong> <a href="mailto:backyardiganentertainmentllc@gmail.com">backyardiganentertainmentllc@gmail.com</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/backyardent_/?hl=en" target="_blank" rel="noreferrer">@backyardent_</a></p>
+            <p><strong>Location:</strong> Atlanta, Georgia</p>
+            <p><strong>Availability:</strong> Consulting, hosting, management.</p>
+          </div>
+        </div>
+
+        <aside class="service-aside">
+          <figure class="media-frame media-frame--portrait">
+            <iframe
+              src="https://www.instagram.com/p/DcuXkXwgntT/embed/"
+              title="Backyard Ent. Instagram video"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+              allowfullscreen
+              loading="lazy"></iframe>
+          </figure>
+          <div class="panel">
+            <p>Backyard Ventures is a professional operations and event management company. We are available for consulting, hosting, and management services. Contact us to start a project or inquiry.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>Backyard Ventures · Contact</div>
+      <div>backyardiganentertainmentllc@gmail.com</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
